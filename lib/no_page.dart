@@ -7,11 +7,11 @@ class NoPage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('お疲れ様'),
         ),
-        body: Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'そんな日もあるよね！',
                 style: TextStyle(
                   fontSize: 40,

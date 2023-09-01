@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:selfcare_app_test/feel_page.dart';
+import 'package:selfcare_app_test/log.dart';
 import 'package:selfcare_app_test/no_page.dart';
 import 'package:selfcare_app_test/third_page.dart';
 
@@ -13,7 +14,7 @@ class HomePage extends StatelessWidget {
             IconButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => ThirdPage()));
+                      MaterialPageRoute(builder: (context) => LogPage()));
                 },
                 icon: const Icon(Icons.favorite),
                 color: Colors.pink),

@@ -17,7 +17,7 @@ class SecondPage extends StatelessWidget {
             children: [
               Text(
                 name,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 50,
                 ),
               ),

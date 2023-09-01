@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:selfcare_app_test/first_page.dart';
+import 'package:selfcare_app_test/log.dart';
 
 class FeelPage extends StatelessWidget {
   final widgets = [];
@@ -27,7 +27,7 @@ class FeelPage extends StatelessWidget {
                 onPressed: () {
                   //ボタンをしたら遷移のコード
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => FirstPage()));
+                      MaterialPageRoute(builder: (context) => LogPage()));
                 },
                 child: const Text('button'),
               ),
